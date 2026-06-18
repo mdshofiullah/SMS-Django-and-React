@@ -1,0 +1,110 @@
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Frontend (React/Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Django
+# =========================
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+
+# Django migrations cache
+**/__pycache__/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Windows
+# =========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Temporary Files
+# =========================
+*.sw?
+*.tmp
+*.temp
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Build Artifacts
+# =========================
+build/
+dist/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Django Secrets
+# =========================
+secret_key.txt
+
+# =========================
+# PostgreSQL Dumps
+# =========================
+*.sql
+*.dump
